@@ -1,8 +1,9 @@
 .login {
   padding: 20px;
-  max-width: 100vw;
+  margin-top: 40px;
+  width: 240px;
 
-  &_grid {
-    height: 100%;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
