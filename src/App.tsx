@@ -5,7 +5,7 @@ import './app.scss'
 
 function App() {
   return (
-    <Container maxWidth="sm" className="app_container">
+    <Container maxWidth="sm" className="app">
       <Login />
     </Container>
   )
