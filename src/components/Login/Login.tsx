@@ -1,5 +1,4 @@
-import { Grid, Paper, TextField } from '@mui/material'
-import React from 'react'
+import { Button, Grid, Paper, TextField } from '@mui/material'
 import './login.scss'
 
 function Login() {
@@ -10,8 +9,9 @@ function Login() {
       justifyContent="center"
       alignItems="center"
     >
-      <Paper elevation={15} className="login">
+      <Paper elevation={10} className="login" sx={{ p: 5 }}>
         <h1>Sign in</h1>
+
         <TextField
           id="login"
           label="login"
@@ -28,6 +28,13 @@ function Login() {
           required
           fullWidth
         />
+
+        <Button variant="contained" fullWidth sx={{ mt: 3 }}>
+          SIGN IN
+        </Button>
+        <Button variant="text" fullWidth sx={{ mt: 1 }}>
+          SIGN UP
+        </Button>
       </Paper>
     </Grid>
   )
