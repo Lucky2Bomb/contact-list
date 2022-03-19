@@ -5,15 +5,15 @@ export interface RouteInterface {
 
 export const HOME: RouteInterface = {
   name: 'contacts',
-  route: '/',
+  route: '',
 }
 
 export const LOGIN: RouteInterface = {
   name: 'sign in',
-  route: '/login',
+  route: 'login',
 }
 
 export const REGISTER: RouteInterface = {
   name: 'sign up',
-  route: '/register',
+  route: 'register',
 }
