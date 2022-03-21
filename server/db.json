@@ -1,4 +1,10 @@
 {
+  "test": [
+    {
+      "id": 1,
+      "text": "text"
+    }
+  ],
   "users": [
     {
       "email": "test@test.com",
@@ -9,6 +15,38 @@
       "email": "t1est@test.com",
       "password": "$2a$10$qUIMobGAVnYACgDqVY3cjepjpI0RpoVugL4UoL0rUqd5xSltSc0AS",
       "id": 2
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "firstName": "Ivan",
+      "lastName": "Ivanov",
+      "middleName": "Ivanovich",
+      "telephone": "89271234561",
+      "email": "ivan@test.com",
+      "avatar": "/images/floppa.jpg"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "firstName": "Petr",
+      "lastName": "Ivanov",
+      "middleName": "Ivanovich",
+      "telephone": "89271234562",
+      "email": "ivan@test.com",
+      "avatar": null
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "firstName": "Ivan",
+      "lastName": "Ivanov",
+      "middleName": "Ivanovich",
+      "telephone": "89271234561",
+      "email": "ivan@test.com",
+      "avatar": "/images/tree.jpg"
     }
   ]
 }
